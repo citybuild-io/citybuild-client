@@ -11,6 +11,8 @@ const linter = new CLIEngine({
 const report = linter.executeOnFiles([
     './src/*.js',
     '!./src/*.test.js',
+    './src/**/*.js',
+    '!./src/**/*.test.js',
     '!./src/registerServiceWorker.js',
 ])
 
