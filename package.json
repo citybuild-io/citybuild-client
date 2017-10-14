@@ -10,15 +10,15 @@
     "react-scripts": "1.0.14"
   },
   "devDependencies": {
-    "eslint": "4.8.0",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^16.0.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.4.0",
-    "eslint-config-airbnb": "16.0.0"
+    "eslint-plugin-react": "^7.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "npm run lint && react-scripts test --env=jsdom",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "lint": "bin/lint.js"
   }
