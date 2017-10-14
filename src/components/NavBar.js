@@ -2,7 +2,7 @@ import React from 'react'
 
 const NavBar = () => (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="https://citybuild.io">Navbar</a>
+        <a className="navbar-brand" href="https://citybuild.io">CityBuild</a>
         <button
             className="navbar-toggler"
             type="button"
