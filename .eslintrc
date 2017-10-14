@@ -13,6 +13,7 @@
         "react/jsx-filename-extension": [0],
         "indent": ["error", 4, { "MemberExpression": 1, "VariableDeclarator": { "var": 2, "let": 2, "const": 3 }, "flatTernaryExpressions": true }],
         "react/jsx-indent": [2, 4],
+        "react/jsx-indent-props": [2, 4],
         "no-use-before-define": ["error", { "functions": false, "classes": true }],
         "no-param-reassign": [0]
         
