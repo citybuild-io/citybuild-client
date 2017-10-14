@@ -7,8 +7,7 @@ cache:
 script:
   - npm run build
   - npm test
-
-  deploy:
+deploy:
   provider: pages
   repo: citybuild-io/citybuild-io.github.io
   local_dir: build
