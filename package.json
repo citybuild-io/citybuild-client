@@ -2,8 +2,10 @@
   "name": "citybuild-client",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://www.citybuild.io",
+  "homepage": "https://www.citybuild.io",
   "dependencies": {
+    "google-map-react": "^0.24.0",
+    "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-router": "^4.2.0",

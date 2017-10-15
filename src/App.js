@@ -2,15 +2,14 @@ import React, { Component } from 'react';
 
 import './App.css';
 import NavBar from './components/NavBar'
+import Map from './components/Map'
 
 class App extends Component {
     render() {
         return (
-            <div className="App">
+            <div className="App" style={{ display: 'flex', flexFlow: 'column', height: '100%' }}>
                 <NavBar />
-                <p className="App-intro">
-                To get started, edit <code>src/App.js</code> and save to reload.
-                </p>
+                <Map />
             </div>
         );
     }
