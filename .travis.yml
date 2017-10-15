@@ -12,7 +12,7 @@ deploy:
   repo: citybuild-io/citybuild-io.github.io
   local_dir: build
   target_branch: master
-  fqdn: citybuild.io
+  fqdn: www.citybuild.io
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
   on:

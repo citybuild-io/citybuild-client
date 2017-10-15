@@ -2,7 +2,7 @@
   "name": "citybuild-client",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://citybuild.io",
+  "homepage" : "https://www.citybuild.io",
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
