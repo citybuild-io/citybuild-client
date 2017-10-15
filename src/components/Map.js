@@ -5,7 +5,7 @@ import GoogleMapReact from 'google-map-react';
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 AnyReactComponent.propTypes = {
-    text: PropTypes.element.isRequired,
+    text: PropTypes.string.isRequired,
 };
 
 class Map extends Component {
