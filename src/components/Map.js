@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import GoogleMapReact from 'google-map-react';
 
 import config from './../config';
+import './Map.css';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
@@ -13,7 +14,7 @@ AnyReactComponent.propTypes = {
 class Map extends Component {
   render() {
     return (
-        <div style={{ flex: 1 }}>
+        <div className="map-container">
             <GoogleMapReact
                 defaultCenter={this.props.center}
                 defaultZoom={this.props.zoom}
