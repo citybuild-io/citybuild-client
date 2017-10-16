@@ -7,7 +7,7 @@ import Map from './components/Map'
 class App extends Component {
     render() {
         return (
-            <div className="App" style={{ display: 'flex', flexFlow: 'column', height: '100%' }}>
+            <div className="App">
                 <NavBar />
                 <Map />
             </div>
